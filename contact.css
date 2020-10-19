@@ -1,0 +1,90 @@
+html{
+    background-image: url("../StaticStore/assets/Press\ X\ Jason.jpg");
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100%;
+    position: relative;
+}
+.navBar{
+    border:solid 1px black;
+    text-align: left;
+    position: fixed;
+    background-color: lightgray;
+    opacity: 0.5;
+    top: 0;
+    right: 4px;
+    width:150px;
+    height:105px;
+}
+
+.title{
+    text-align: center;
+    text-decoration: underline;
+    color:white;
+    position: relative;
+}
+hr{
+    border: solid 2px black;
+}
+
+li{
+    padding:5px;
+}
+
+
+.contactInfo{
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 7%;
+    border: solid 2px black;
+    background: rgba(105, 105, 105, 0.7);
+        
+}
+
+#submitBut{
+    border:none;
+    width:250px;
+    padding: 15px 15px 15px 15px; /*top right bottom left*/
+    text-decoration: underline;
+    font-size: 20px;
+    display:inline-block;
+    vertical-align: middle;
+    margin-left: 37%;
+}
+
+#submitBut:hover{
+    opacity:0.8;
+}
+
+input[type="text"], textarea{
+    border: solid 1px black;
+    padding:12px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+.basics{
+    position: relative;
+    margin-bottom: 2%;
+    margin-left: 25%;
+}
+
+input[type="email"]{
+    border: solid 1px black;
+
+    margin: 15px 15px 0px 5px;
+    border-radius: 5px;
+    padding: 12px;
+    box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+textarea{
+    width: 80%;
+    margin-right: 10%;
+    margin-left:9%;
+
+}

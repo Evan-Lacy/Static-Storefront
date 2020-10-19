@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="title">Evan's Codex</h1>
+        <div class="navBar">
+            <ul>
+                <li><a href="storeIndex.html">Home</a></li>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">About</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <br>
+        <hr>
+    </div>
+
+    <form class="contactInfo">
+        <div class="basics">
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" placeholder="Full Name..." name="fullName">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="emailField" placeholder="Email Address..."><br><br>
+        </div>
+        <label for="contactField">Reason for Contact:</label><br>
+        <div>
+            <textarea type="textArea" placeholder="Enter reason for contact..." id="contact" name="contactField"
+            rows="10" cols="100"></textarea><br>
+        </div>
+        <button type="submit" id="submitBut" name="Submit">Submit</button>
+    </form>
+    
+</body>
+
+</html>
