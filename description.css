@@ -3,10 +3,6 @@ html{
     background-attachment: fixed;
 }
 
-.wrapper{
-
-}
-
 .navBar{ /*Nav bar to upper right*/
     border:solid 1px black;
     text-align: left;

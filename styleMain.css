@@ -9,10 +9,6 @@ html{
 
 /* *{box-sizing: border-box;} */
 
-.wrapper{
-
-}
-
 .navBar{
     border:solid 1px black;
     text-align: left;
